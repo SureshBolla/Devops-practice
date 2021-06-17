@@ -1,0 +1,17 @@
+pipeline{
+properties{
+git committer : 'suresh'
+}
+parameters{
+choice(choices : ['teames','prod','stage'], Name : Environments , Decription :'Environments for API' )
+choice(choices : ['Eastus2','centralus'], Name : Location , Decription :'Location for API')
+
+}
+stages{
+ stage('git clone'){
+   steps{
+   
+   }
+}
+}
+}
