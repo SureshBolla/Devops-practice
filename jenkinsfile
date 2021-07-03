@@ -1,4 +1,4 @@
-Node{'agent/slavename') 
+pipeline{
 
 properties{
 
@@ -26,6 +26,5 @@ stage('Build'){
 }
 
 
-}
 }
 }
