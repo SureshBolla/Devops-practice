@@ -1,5 +1,7 @@
 pipeline{
+
 properties{
+
 git committer : 'suresh'
 }
 parameters{
