@@ -1,4 +1,4 @@
-pipeline{
+Node{'agent/slavename') 
 
 properties{
 
@@ -12,12 +12,14 @@ choice(choices : ['Eastus2','centralus'], Name : Location , Decription :'Locatio
 stages{
  stage('git clone'){
    steps{
-   git credentialsId: '8cb43e62-7981-4423-b79e-cdc17279ddee', url: 'https://github.com/SureshBolla/Devops-practice.git'
+   git credentialsId: git 'https://github.com/SureshBolla/Devops-practice.git'
    }
    
 }
 stage('Build'){
  steps{
+ 
+ //maven path
  mvn clean package
  }
 
