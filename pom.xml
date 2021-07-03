@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
  
   <groupId>com.greentechnologies</groupId>
-  <artifactId>nginx</artifactId>
+  <artifactId>hello-world</artifactId>
   <version>1</version>
 </project>
 
